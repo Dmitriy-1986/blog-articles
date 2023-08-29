@@ -37,9 +37,12 @@ function displayPosts(postsToShow) {
     postList.innerHTML = '';
     postsToShow.forEach(post => {
         const listItem = document.createElement('li');
-        listItem.innerHTML = `<h3>${post.title}</h3>
+        listItem.innerHTML = `  <small>Категория: ${post.category}</small>
+                                <h3>${post.title}</h3>
                                 <p class="prevContent">${post.prevContent} <span class="read-all"> [ Читать больше... ]</span></p>
-                                <p class="postContent">${post.content}</p>`;
+                                <p class="postContent">${post.content}</p>
+                                
+                                <small>Дата публикации: ${post.date}</small>`;
         postList.appendChild(listItem);
     });
     displayPostContent();
@@ -60,7 +63,7 @@ function handlePaginationClick(newPage) {
 
 function handleSearch() {
     const searchText = searchInput.value.toLowerCase();
-    currentPosts = posts.filter(post => post.title.toLowerCase().includes(searchText) || post.content.toLowerCase().includes(searchText));
+    currentPosts = posts.filter(post => post.category.toLowerCase().includes(searchText) || post.title.toLowerCase().includes(searchText) || post.content.toLowerCase().includes(searchText));
     totalPages = Math.ceil(currentPosts.length / postsPerPage);
     currentPage = 1;
     handlePaginationClick(currentPage);
@@ -96,7 +99,7 @@ function createPaginationButtons() {
 searchInput.addEventListener('input', handleSearch);
 
 // Initialize
-currentPosts = posts.reverse();;
+currentPosts = posts.reverse();
 totalPages = Math.ceil(currentPosts.length / postsPerPage);
 handlePaginationClick(currentPage);
 createPaginationButtons();
