@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(68, 70, 84);
+    color: #c5c5d2;
+}
+
+.container {
+    max-width: 1100px;
+    min-height: 97vh;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.search-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 0 15px 5px 0;
+}
+.search-label {
+    margin-right: 15px;
+}
+.input-search {
+    display: block;
+    padding: 7px;
+}
+
+.active {
+    background-color: #034ab4;
+    color: white;
+}
+
+.postContent {
+    display: none;
+}
+
+.read-all {
+    cursor: pointer;
+    color: rgba(129, 113, 173);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vh;
+}
+
+.pagination {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ccc;
+}
+
+ul#postList.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#postList.post-list h3 {
+    color: rgb(86, 184, 212);
+}
+
+ul#postList.post-list li {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+    background-color: rgba(40, 44, 52);
+    border-radius: 7px;
+}
+
+p.postContent,
+p.prevContent {
+    line-height: 2;
+}

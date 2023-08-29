@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header-title">Личный Блог</h1>
+
+        <div id="posts">
+            <div class="search-block">
+                <span class="search-label">Искать статью: </span>
+                <input type="search" id="searchInput" placeholder="Поиск..." class="input-search">
+            </div>
+            <div class="block">
+                <div>
+                    <ul id="postList" class="post-list"></ul>
+                </div>
+                <div id="pagination" class="pagination"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./posts.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
