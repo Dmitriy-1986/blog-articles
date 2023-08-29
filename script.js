@@ -96,7 +96,7 @@ function createPaginationButtons() {
 searchInput.addEventListener('input', handleSearch);
 
 // Initialize
-currentPosts = posts;
+currentPosts = posts.reverse();;
 totalPages = Math.ceil(currentPosts.length / postsPerPage);
 handlePaginationClick(currentPage);
 createPaginationButtons();
