@@ -6,6 +6,8 @@
 body {
     background-color: rgba(68, 70, 84);
     color: #c5c5d2;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
