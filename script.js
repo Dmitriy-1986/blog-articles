@@ -1,4 +1,4 @@
-const postsPerPage = 5;
+const postsPerPage = 3;
 let currentPage = 1;
 let currentPosts = [];
 let totalPages = 1;
