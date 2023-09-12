@@ -175,7 +175,7 @@ const posts = [
                 let obj1 = { value: 42 };<br>
                 let obj2 = { value: 42 };<br>
                 console.log(obj1 === obj2); // false, так как это два разных<br> 
-                </b><br>
+                </b><br><br>
                 В данном случае obj1 и obj2 - это два разных объекта, даже если их содержимое одинаково. 
                 Они имеют разные ссылки в памяти, поэтому оператор === возвращает false.<br>
         `,
@@ -215,13 +215,13 @@ const posts = [
                  что одно выражение завершилось и начинается следующее. <br><br>
                  <b>
                  let x = 5; let y = 10; console.log(x + y);
-                 </b><br>
+                 </b><br><br>
                  Здесь три выражения записаны в одной строке. Однако, хотя это возможно, такой стиль кода может ухудшить 
                  читаемость и поддерживаемость вашего кода. В большинстве случаев рекомендуется использовать отдельные строки 
                  для каждого выражения, чтобы сделать код более понятным.<br><br>
                  Исключением из этого правила могут быть некоторые ситуации, например, при определении переменных с помощью деструктуризации:<br>
                  <b>
-                 let [x, y] = [5, 10];<br>
+                 let [x, y] = [5, 10];<br><br>
                  </b>
                  Этот код также объединяет несколько выражений в одной строке, но это допустимо и даже рекомендуется для таких случаев.
         `,
@@ -267,7 +267,7 @@ const posts = [
                         }<br><br>
                         const sheepArray = [true, true, true, false, true, true, true, true, true, false, true, false, true, false, false, true, true, true, true, true, false, false, true, true];<br>
                         const sheepCount = countSheeps(sheepArray);<br>
-                        console.log(sheepCount); // Это выведет 17 в консоль<br>
+                        console.log(sheepCount); // Это выведет 17 в консоль<br><br>
                     </b>
                     Эта функция сначала проверяет, что входной аргумент является массивом и не равен null или undefined. 
                     Затем она использует метод filter(), чтобы отфильтровать только значения true в массиве, и 
@@ -287,7 +287,7 @@ const posts = [
                         const testStr = 'adjfvnjvnjfdnvfdvnlkfdnvfdnv';<br>
                         const strUpperCase = makeUpperCase(testStr);<br>
                         console.log(strUpperCase);<br><br>
-                        ADJFVNJVNJFDNVFDVNLKFDNVFDNV<br>
+                        ADJFVNJVNJFDNVFDVNLKFDNVFDNV<br><br>
                     </b>
                     Эта функция использует метод toUpperCase() для выполнения этой операции, и вызываю эту функцию, 
                     передав ей строку в качестве аргумента, и она вернет эту строку, но уже преобразованную в верхний регистр.
