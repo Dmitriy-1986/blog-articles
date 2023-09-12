@@ -287,7 +287,7 @@ const posts = [
                         const testStr = 'adjfvnjvnjfdnvfdvnlkfdnvfdnv';<br>
                         const strUpperCase = makeUpperCase(testStr);<br>
                         console.log(strUpperCase);<br><br>
-                        VM288:6 ADJFVNJVNJFDNVFDVNLKFDNVFDNV<br>
+                        ADJFVNJVNJFDNVFDVNLKFDNVFDNV<br>
                     </b>
                     Эта функция использует метод toUpperCase() для выполнения этой операции, и вызываю эту функцию, 
                     передав ей строку в качестве аргумента, и она вернет эту строку, но уже преобразованную в верхний регистр.
