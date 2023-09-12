@@ -294,10 +294,25 @@ const posts = [
         `,
         date: '12.09.2023, 16:55:19'
     },
+   { 
+        category: "JS",
+        title: "Функция, которая переворачивает переданную в нее строку.", 
+        prevContent: "Вот как можно перевернуть строку в JavaScript.", 
+        content: `Вот как можно перевернуть строку в JavaScript.<br><br>
+                    <b>
+                        function reverseString(inputString) {<br>
+                            return inputString.split('').reverse().join('');<br>
+                        }<br><br>
+                        // Примеры использования<br>
+                        const result1 = reverseString('world');<br>
+                        console.log(result1);  // Вывод: 'dlrow'<br><br>
+                    </b>
+                    Этот код разбивает строку на массив символов с помощью split(''), 
+                    переворачивает массив с помощью reverse(), а затем объединяет элементы обратно в строку с помощью join('').
+        `,
+        date: '12.09.2023, 18:04:21'
+    },
 ];
-
-
-
 
    
 /* Date: new Date().toLocaleString() */
