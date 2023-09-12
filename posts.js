@@ -233,7 +233,7 @@ const posts = [
         prevContent: "Вы можете удвоить целое число в JavaScript", 
         content: `Вы можете удвоить целое число в JavaScript, используя оператор умножения (*). Вот пример функции, которая принимает целое 
                     число и возвращает его удвоенное значение:<br><br>
-                    <pre>
+                    <b>
                         const doubleNumber = (number) => {
                           return number * 2;
                         }
@@ -242,7 +242,7 @@ const posts = [
                         const myNumber = 5;
                         const doubledNumber = doubleNumber(myNumber);
                         console.log(doubledNumber); // Выведет 10
-                    </pre>
+                    </b>
                     Просто вызовите функцию doubleNumber() и передайте ей ваше целое число в качестве аргумента, и она вернет удвоенное значение этого числа.
         `,
         date: '12.09.2023, 14:00:37'
