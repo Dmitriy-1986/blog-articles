@@ -312,7 +312,31 @@ const posts = [
         `,
         date: '12.09.2023, 18:04:21'
     },
+   { 
+        category: "JS",
+        title: "Разбить слово на массив букв", 
+        prevContent: "Разбиваем слово на массив букв в JavaScript.", 
+        content: `Разбиваем слово на массив букв в JavaScript.<br><br>
+                    <b>
+                         const world = 'world';<br>
+                         const arrWorld = world.split('');<br>
+                         console.log(arrWorld);<br><br>
+                    </b>
+                    Этот код разбивает строку на массив символов с помощью split('').<br><br>
+                    Также эту задачу можно выполнить с помощью "Spread Operator" (оператор распространения) 
+                    <b>
+                         const world2 = 'world';<br>
+                         const arrWorld2 = [...world2]<br>
+                         console.log(arrWorld2);<br><br>
+                    </b>
+                    Этот оператор позволяет разбивать строки (и другие итерируемые объекты) на отдельные элементы
+                    и помещать их в новый массив или другую структуру данных.
+        `,
+        date: '12.09.2023, 18:15:18'
+    },
 ];
 
-   
-/* Date: new Date().toLocaleString() */
+
+
+  
+/* new Date().toLocaleString() */
