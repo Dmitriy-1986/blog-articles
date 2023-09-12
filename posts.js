@@ -235,7 +235,7 @@ const posts = [
                     число и возвращает его удвоенное значение:<br><br>
                     <b>
                         const doubleNumber = (number) => { <br>
-                          return number * 2; <br>
+                        &#160 &#160 &#160 return number * 2; <br>
                         } <br><br>
                         
                         // Пример использования функции <br>
