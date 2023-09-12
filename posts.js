@@ -227,6 +227,26 @@ const posts = [
         `,
         date: '30.08.2023, 00:38:11'
     },
+   { 
+        category: "JS",
+        title: "Удвоить целое число и вернуть его", 
+        prevContent: "Вы можете удвоить целое число в JavaScript", 
+        content: `Вы можете удвоить целое число в JavaScript, используя оператор умножения (*). Вот пример функции, которая принимает целое 
+                    число и возвращает его удвоенное значение:<br><br>
+                    <pre>
+                        function doubleNumber(number) {
+                          return number * 2;
+                        }
+                        
+                        // Пример использования функции
+                        var myNumber = 5;
+                        var doubledNumber = doubleNumber(myNumber);
+                        console.log(doubledNumber); // Выведет 10
+                    </pre>
+                    Просто вызовите функцию doubleNumber() и передайте ей ваше целое число в качестве аргумента, и она вернет удвоенное значение этого числа.
+        `,
+        date: '12.09.2023, 14:00:37'
+    },
 ];
 
 /* Date: new Date().toLocaleString() */
