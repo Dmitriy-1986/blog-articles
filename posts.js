@@ -275,7 +275,29 @@ const posts = [
         `,
         date: '12.09.2023, 16:32:48'
     },
+    { 
+        category: "JS",
+        title: "Функция, которая преобразует входную строку в верхний регистр", 
+        prevContent: "Рассмотрим функцию, которая преобразует входную строку в верхний регистр.", 
+        content: `Рассмотрим функцию, которая преобразует входную строку в верхний регистр.<br><br>
+                    <b>
+                        function makeUpperCase(str) {<br>
+                         &#160 &#160 return str.toUpperCase();<br>
+                        }<br>
+                        const testStr = 'adjfvnjvnjfdnvfdvnlkfdnvfdnv';<br>
+                        const strUpperCase = makeUpperCase(testStr);<br>
+                        console.log(strUpperCase);<br><br>
+                        VM288:6 ADJFVNJVNJFDNVFDVNLKFDNVFDNV<br>
+                    </b>
+                    Эта функция использует метод toUpperCase() для выполнения этой операции, и вызываю эту функцию, 
+                    передав ей строку в качестве аргумента, и она вернет эту строку, но уже преобразованную в верхний регистр.
+        `,
+        date: '12.09.2023, 16:55:19'
+    },
 ];
+
+
+
 
    
 /* Date: new Date().toLocaleString() */
