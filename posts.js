@@ -237,7 +237,6 @@ const posts = [
                         const doubleNumber = (number) => { <br>
                         &#160 &#160 &#160 return number * 2; <br>
                         } <br><br>
-                        
                         // Пример использования функции <br>
                         const myNumber = 5; <br>
                         const doubledNumber = doubleNumber(myNumber); <br>
