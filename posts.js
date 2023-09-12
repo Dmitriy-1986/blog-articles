@@ -246,6 +246,36 @@ const posts = [
         `,
         date: '12.09.2023, 14:00:37'
     },
+    { 
+        category: "JS",
+        title: "Подсчитать количество овец, присутствующих в массиве", 
+        prevContent: "Рассмотрим массив/список овец, в котором некоторые овцы могут отсутствовать на своем месте", 
+        content: `Рассмотрим массив/список овец, в котором некоторые овцы могут отсутствовать на своем месте. Нам нужна функция, 
+                    которая подсчитывает количество овец, присутствующих в массиве (истина означает наличие),
+                    а также нужно проверить наличие неверных значений, таких как null/undefined.<br><br>
+                    <b>
+                        function countSheeps(arrayOfSheep) {<br>
+                             &#160 &#160 if (!arrayOfSheep || !Array.isArray(arrayOfSheep)) {<br>
+                             &#160 &#160 &#160 return 0; // Возвращаем 0, если входной аргумент не является массивом или null/undefined.<br>
+                             }<br>
+                           
+                             // Используем метод filter() для отфильтровывания только значений true в массиве.<br>
+                             &#160 &#160 const presentSheep = arrayOfSheep.filter((isPresent) => isPresent === true);<br>
+                           
+                             // Возвращаем длину отфильтрованного массива, которая будет равна количеству присутствующих овец.<br>
+                             &#160 &#160 return presentSheep.length;<br>
+                        }<br><br>
+                        const sheepArray = [true, true, true, false, true, true, true, true, true, false, true, false, true, false, false, true, true, true, true, true, false, false, true, true];<br>
+                        const sheepCount = countSheeps(sheepArray);<br>
+                        console.log(sheepCount); // Это выведет 17 в консоль<br>
+                    </b>
+                    Эта функция сначала проверяет, что входной аргумент является массивом и не равен null или undefined. 
+                    Затем она использует метод filter(), чтобы отфильтровать только значения true в массиве, и 
+                    возвращает длину этого отфильтрованного массива, что и будет количеством присутствующих овец.
+        `,
+        date: '12.09.2023, 16:32:48'
+    },
 ];
 
+   
 /* Date: new Date().toLocaleString() */
