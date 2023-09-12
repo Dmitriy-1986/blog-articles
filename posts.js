@@ -232,16 +232,16 @@ const posts = [
         title: "Удвоить целое число и вернуть его", 
         prevContent: "Вы можете удвоить целое число в JavaScript", 
         content: `Вы можете удвоить целое число в JavaScript, используя оператор умножения (*). Вот пример функции, которая принимает целое 
-                    число и возвращает его удвоенное значение:<br>
+                    число и возвращает его удвоенное значение:<br><br>
                     <b>
                         const doubleNumber = (number) => { <br>
                           return number * 2; <br>
-                        } <br>
+                        } <br><br>
                         
                         // Пример использования функции <br>
                         const myNumber = 5; <br>
                         const doubledNumber = doubleNumber(myNumber); <br>
-                        console.log(doubledNumber); // Выведет 10 <br>
+                        console.log(doubledNumber); // Выведет 10 <br><br>
                     </b>
                     Просто вызовите функцию doubleNumber() и передайте ей ваше целое число в качестве аргумента, и она вернет удвоенное значение этого числа.
         `,
