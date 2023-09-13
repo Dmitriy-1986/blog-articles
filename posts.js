@@ -351,7 +351,7 @@ const posts = [
                             const minNumber = Math.min(...numberArray);<br><br>
                             
                             // Формируем результат в нужном формате<br>
-                            const result = `${maxNumber} ${minNumber}`;<br>
+                            const result = `\${maxNumber} ${minNumber}\`;<br>
                             
                             return result;<br>
                         }
