@@ -412,6 +412,10 @@ const posts = [
                     console.log(outputString); // "тт сйт дл ндчнкв LL!"<br>
                                      <br><br>
                                 </b>
+                     Реализация с помощью стрелочной функции<br><br>
+                     <b>
+                        const disemvowel = str => str.replace(/[aeiouAEIOU]/g, '');<br>
+                     </b>
         `,
         date: '13.09.2023, 15:08:17'
     },
