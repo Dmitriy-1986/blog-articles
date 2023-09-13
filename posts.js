@@ -535,8 +535,7 @@ const posts = [
                             
                           &#160 &#160 &#160  for (let i = min; i <= max; i++) {<br>
                           &#160 &#160 &#160    sum += i;<br>
-                      }<br><br>
-                            
+                      &#160 &#160 }<br>
                           &#160 &#160 &#160  return sum;<br>
                          &#160 &#160 }<br>
                         }<br><br>
