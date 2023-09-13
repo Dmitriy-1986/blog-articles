@@ -457,9 +457,9 @@ const posts = [
                     <br><br>
                     <b>
                     function invert(numbers) {<br>
-                     &#160 &#160// Создаем новый массив с аддитивной обратной величиной каждого числа<br>
-                     &#160 &#160const invertedNumbers = numbers.map(num => -num);<br>
-                     &#160 &#160return invertedNumbers;<br>
+                     &#160 &#160 // Создаем новый массив с аддитивной обратной величиной каждого числа<br>
+                     &#160 &#160 const invertedNumbers = numbers.map(num => -num);<br>
+                     &#160 &#160 return invertedNumbers;<br>
                      }<br><br>
                      
                      // Примеры использования:<br>
@@ -473,7 +473,29 @@ const posts = [
         `,
         date: '13.09.2023, 17:31:53'
     },
+   { 
+        category: "JS",
+        title: "Преобразование числа в перевернутый массив цифр в JavaScript.", 
+        prevContent: "Преобразование числа в перевернутый массив цифр в JavaScript.", 
+        content: `Преобразование числа в перевернутый массив цифр в JavaScript.
+                    <br><br>
+                    <b>
+                    function reverseNumberToArray(num) {<br>
+                       &#160 &#160 // Преобразуем число в строку, разбиваем строку на массив символов, переворачиваем массив и парсим каждый символ обратно в число<br>
+                       &#160 &#160 return Array.from(num.toString()).reverse().map(Number);<br>
+                     }<br><br>
+                     
+                     // Примеры использования:<br>
+                     const result1 = reverseNumberToArray(35231);<br>
+                     const result2 = reverseNumberToArray(0);<br>
+                     console.log(result1);  // Результат: [1, 3, 2, 5, 3]<br>
+                     console.log(result2);  // Результат: [0]<br><br>
+                    </b>
+        `,
+        date: '13.09.2023, 19:10:45'
+    },
 ];
-
+ 
   
 /* new Date().toLocaleString() */
+<br>
