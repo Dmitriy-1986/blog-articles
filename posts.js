@@ -418,7 +418,36 @@ const posts = [
         `,
         date: '13.09.2023, 15:20:23'
     },
-   
+    { 
+        category: "JS",
+        title: "Вычислить среднее значение чисел в заданном списке.", 
+        prevContent: "На JavaScript, вычисляем среднее значение чисел в заданном списке. Если массив пустой, функция вернет 0.", 
+        content: `На JavaScript, вычисляем среднее значение чисел в заданном списке. Если массив пустой, функция вернет 0.
+                    <br><br>
+                    <b>
+                         function calculateAverage(numbers) {<br>
+                          // Проверяем, пуст ли массив<br>
+                          if (numbers.length === 0) {<br>
+                            return 0;<br>
+                          }<br><br>
+                        
+                          // Суммируем все числа в массиве<br>
+                          const sum = numbers.reduce((acc, curr) => acc + curr, 0);<br>
+                        
+                          // Вычисляем среднее значение<br>
+                          const average = sum / numbers.length;<br><br>
+                        
+                          return average;<br>
+                        }<br><br>
+                        
+                        // Пример использования функции:<br>
+                        const numbers = [1, 2, 3, 4, 5];<br>
+                        const average = calculateAverage(numbers);<br>
+                        console.log(average); // Выводим среднее значение<br><br>
+                     </b>
+        `,
+        date: '13.09.2023, 16:40:54'
+    },
 ];
 
   
