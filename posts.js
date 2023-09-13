@@ -409,10 +409,9 @@ const posts = [
                     // Пример использования:<br>
                     const inputString = "Этот сайт для неудачников LOL!";<br>
                     const outputString = removeVowels(inputString);<br>
-                    console.log(outputString); // "тт сйт дл ндчнкв LL!"<br>
-                                     <br><br>
+                    console.log(outputString); // "тт сйт дл ндчнкв LL!"<br><br>
                                 </b>
-                     Реализация с помощью стрелочной функции<br><br>
+                     Реализация с помощью стрелочной функции<br>
                      <b>
                         const disemvowel = str => str.replace(/[aeiouAEIOU]/g, '');<br>
                      </b>
