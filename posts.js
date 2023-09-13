@@ -401,10 +401,10 @@ const posts = [
                     <br><br>
                     <b>
                          function removeVowels(str) {<br>
-                        // Используем регулярное выражение для удаления гласных  из строки<br>
-                        const result = str.replace(/[aeiouауоыэяюёиеAEIOUАУСЫЭЯЮЕИ]/g, '');<br>
-                        return result;<br>
-                    }<br><br>
+                         &#160 &#160 // Используем регулярное выражение для удаления гласных  из строки<br>
+                         &#160 &#160 const result = str.replace(/[aeiouауоыэяюёиеAEIOUАУСЫЭЯЮЕИ]/g, '');<br>
+                         &#160 &#160 return result;<br>
+                          }<br><br>
             
                     // Пример использования:<br>
                     const inputString = "Этот сайт для неудачников LOL!";<br>
@@ -417,7 +417,7 @@ const posts = [
                         const disemvowel = str => str.replace(/[aeiouAEIOU]/g, '');<br>
                      </b>
         `,
-        date: '13.09.2023, 15:08:17'
+        date: '13.09.2023, 15:20:23'
     },
    
 ];
