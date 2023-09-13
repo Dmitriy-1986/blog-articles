@@ -387,52 +387,36 @@ const posts = [
                         function makeNegative(num) {<br>
                           return -Math.abs(num);<br>
                         }<br><br>
-                    </b>
+                    </b>`,
                     
         date: '13.09.2023, 13:27:29'
     },
     { 
         category: "JS",
-        title: "Удалить все гласные из строки", 
+        title: "Удалить все гласные из строки.", 
         prevContent: "Функция, которая принимает строку и возвращает новую строку, из которой удалены все гласные.", 
-        content: `Функция, которая принимает строку и возвращает новую строку, из которой удалены все гласные.
+        content: `
+                 Функция, которая принимает строку и возвращает новую строку, из которой удалены все гласные.
                     можно реализовать эту функцию на JavaScript, используя регулярные выражения для удаления всех гласных из строки.
                     <br><br>
                     <b>
-                         function removeVowels(str) {
-            // Используем регулярное выражение для удаления гласных  из строки
-            const result = str.replace(/[aeiouауоыэяюёиеAEIOUАУСЫЭЯЮЕИ]/g, '');
-            return result;
-        }
-
-        // Пример использования:
-        const inputString = "Этот сайт для неудачников LOL!";
-        const outputString = removeVowels(inputString);
-        console.log(outputString); // "тт сйт дл ндчнкв LL!"
-                         <br><br>
-                    </b>
-                    
+                         function removeVowels(str) {<br>
+                        // Используем регулярное выражение для удаления гласных  из строки<br>
+                        const result = str.replace(/[aeiouауоыэяюёиеAEIOUАУСЫЭЯЮЕИ]/g, '');<br>
+                        return result;<br>
+                    }<br><br>
+            
+                    // Пример использования:<br>
+                    const inputString = "Этот сайт для неудачников LOL!";<br>
+                    const outputString = removeVowels(inputString);<br>
+                    console.log(outputString); // "тт сйт дл ндчнкв LL!"<br>
+                                     <br><br>
+                                </b>
         `,
-        date: '13.09.2023, 12:20:59'
+        date: '13.09.2023, 15:08:17'
     },
+   
 ];
 
-
-/*
-{ 
-        category: "JS",
-        title: " ", 
-        prevContent: " ", 
-        content: `
-                    <br><br>
-                    <b>
-                         
-                         <br><br>
-                    </b>
-                    
-        `,
-        date: '13.09.2023, 12:20:59'
-    },
-*/
   
 /* new Date().toLocaleString() */
