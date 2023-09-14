@@ -286,6 +286,15 @@ const posts = [
                      &#160 &#160  }<br>
                      }<br>
                     </b><br>
+                    А также есть еще один интересный способ написать эту функцию:
+                    <br><br>
+                    <b>
+                     function countSheeps(arrayOfSheeps) {<br>
+                      &#160 &#160 return arrayOfSheeps.filter(Boolean).length;<br>
+                     }<br>
+                     Или в однус строку:<br>
+                     const countSheeps = arrayOfSheeps => arrayOfSheeps.filter(Boolean).length;
+                    </><br>
         `,
         date: '12.09.2023, 16:32:48'
     },
