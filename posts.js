@@ -626,7 +626,7 @@ const posts = [
                     <b>
                       function simpleMultiplication(value){<br>
                         &#160 &#160  if(value % 2 === 0) {<br>
-                        &#160 &#160  &#160 &#160 return value *8<br>
+                        &#160 &#160  &#160 &#160 return value * 8<br>
                         &#160 &#160 } else {<br>
                         &#160 &#160  &#160 &#160 return value * 9;<br>
                         &#160 &#160 }<br>
