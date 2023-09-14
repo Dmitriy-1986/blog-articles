@@ -700,7 +700,7 @@ const posts = [
                      // Пример использования:<br>
                      const trueString = boolToString(true); // "true"<br>
                      const falseString = boolToString(false); // "false"<br>
-                   </b><br><br>
+                   </b><br>
                    Можно написать данную функцию в одну строку используя синткасис стрелочной функции.
                    <b>
                       const booleanToString = (b) => b ? "true" : "false";
@@ -710,7 +710,7 @@ const posts = [
                      function booleanToString(b) {<br>
                       &#160 &#160  return b.toString();<br>
                      }
-                   </b><br><br>
+                   </b><br>
                    Также в JS можно преобразовать булевое значение в строковое с помощью конкатенации.<br>
                    <b>
                      function booleanToString( b ) {<br>
