@@ -68,7 +68,7 @@ function handleSearch() {
     currentPage = 1;
     
     if (currentPosts.length === 0) {
-        postList.innerHTML = '<p>Ничего не найдено.</p>';
+        postList.innerHTML = '<div style="text-align: center;"><mark>Ничего не найдено.</mark></div>';
         pagination.innerHTML = ''; // Очистить навигацию
     } else {
         handlePaginationClick(currentPage);
