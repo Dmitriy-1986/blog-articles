@@ -275,7 +275,7 @@ const posts = [
                     Также эту функцию можно написать в одну строку: <br><br>
                     <b>
                         const countSheeps = (sheep) => Array.isArray(sheep) ? sheep.filter((isPresent) => isPresent === true).length : 0;
-                    </b><br><br>
+                    </b><br>
                     Или третий способ создания функции для этой задачи:
                     <b>
                      function countSheeps(sheep) {<br>
@@ -292,9 +292,11 @@ const posts = [
                      function countSheeps(arrayOfSheeps) {<br>
                       &#160 &#160 return arrayOfSheeps.filter(Boolean).length;<br>
                      }<br>
+                     </b><br>
                      Или в однус строку:<br>
+                     <b>
                      const countSheeps = arrayOfSheeps => arrayOfSheeps.filter(Boolean).length;
-                    </><br>
+                    </b><br>
         `,
         date: '12.09.2023, 16:32:48'
     },
