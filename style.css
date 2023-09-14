@@ -92,3 +92,10 @@ p.postContent,
 p.prevContent {
     line-height: 2;
 }
+
+.postContent b {
+    display:block;
+    background:#151515;
+    padding:15px;
+    border-radius: 5px;
+}
