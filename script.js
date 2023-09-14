@@ -66,8 +66,14 @@ function handleSearch() {
     currentPosts = posts.filter(post => post.category.toLowerCase().includes(searchText) || post.title.toLowerCase().includes(searchText) || post.content.toLowerCase().includes(searchText));
     totalPages = Math.ceil(currentPosts.length / postsPerPage);
     currentPage = 1;
-    handlePaginationClick(currentPage);
-    createPaginationButtons();
+    
+    if (currentPosts.length === 0) {
+        postList.innerHTML = '<p>Ничего не найдено.</p>';
+        pagination.innerHTML = ''; // Очистить навигацию
+    } else {
+        handlePaginationClick(currentPage);
+        createPaginationButtons();
+    }
 }
 
 function createPaginationButtons() {
