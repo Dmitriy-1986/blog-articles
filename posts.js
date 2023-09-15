@@ -845,6 +845,28 @@ const posts = [
         `,
         date:  '15.09.2023, 14:35:58'
     },
+   { 
+        category: "JS",
+        title: "Использование метода includes в JavaScript.", 
+        prevContent: 'Вы можете использовать метод includes в JavaScript', 
+        content: `Вы можете использовать метод includes в JavaScript, чтобы проверить, 
+                    содержит ли массив определенное значение x. Вот реализация функции check:
+                    <br><br>
+                    <b>
+                      function check(a, x) {<br>
+                      &#160 &#160 return a.includes(x);<br>
+                     }<br><br>
+
+                     // Примеры:<br>
+                     console.log(check([1, 2, 3, 4, 5], 3)); // true<br>
+                     console.log(check(["яблоко", "банан", "вишня"], "банан")); // true<br>
+                     console.log(check([1, 2, 3, 4, 5], 6)); // false<br>
+                     console.log(check(["яблоко", "банан", "вишня"], "апельсин")); // false<br>
+                    </b><br>
+                     Метод includes возвращает true, если массив a содержит значение x, и false в противном случае.
+        `,
+        date:  '15.09.2023, 17:11:10'
+    },
 ];
 
  
