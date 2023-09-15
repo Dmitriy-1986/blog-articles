@@ -86,6 +86,12 @@ function createPaginationButtons() {
         const button = document.createElement('button');
         button.textContent = i;
         button.addEventListener('click', () => handlePaginationClick(i));
+        
+        // Установите класс "active" для первой кнопки
+        if (i === 1) {
+            button.classList.add('active');
+        }
+        
         button.addEventListener('click', (e) => {
             const targetButton = e.target;
             const buttons = pagination.getElementsByTagName('button');
