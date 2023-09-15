@@ -890,6 +890,31 @@ const posts = [
         `,
         date:  '15.09.2023, 17:15:20'
     },
+   { 
+        category: "JS",
+        title: "Найти кратные числа", 
+        prevContent: 'Создать список кратных чисел', 
+        content: `Создать список кратных чисел integer в пределах limit
+                    <br><br>
+                    <b>
+                       function findMultiples(integer, limit) {<br>
+                       &#160 &#160    const multiples = [];<br>
+                       &#160 &#160 for (let i = integer; i <= limit; i += integer) {<br>
+                       &#160 &#160 &#160 &#160   multiples.push(i);<br>
+                       &#160 &#160 }<br><br>
+                       &#160 &#160 return multiples;<br>
+                        }<br><br>
+                        // Пример использования:<br>
+                        const integer = 2;<br>
+                        const limit = 6;<br>
+                        const result = findMultiples(integer, limit);<br>
+                        console.log(result); // Выведет: [2, 4, 6]<br>
+                    </b><br>
+                    Этот код создает пустой массив multiples, а затем использует цикл for для добавления кратных 
+                    чисел integer в этот массив в пределах от integer до limit.
+        `,
+        date:  '15.09.2023, 21:19:13'
+    },
 ];
 
  
