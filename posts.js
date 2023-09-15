@@ -733,7 +733,7 @@ const posts = [
                     <b>
                     function numberToString(num) {<br>
                      &#160 &#160  return num.toString();<br>
-                     } </b><br><br>
+                     } </b><br>
                    С использванием стрелочной функции и интерполяции строк (template literals) 
                    для преобразования числового значения (num) в его строковое представление.
                    <b>
