@@ -835,7 +835,7 @@ const posts = [
                       const countSheep = (num) => { <br>
                       &#160 &#160 let result = "";<br>
                       &#160 &#160 for (let i = 1; i <= num; i++) {<br>
-                      &#160 &#160 &#160 &#160 result += \`${i} sheep...\`;<br>
+                      &#160 &#160 &#160 &#160 result += \`$\{i} sheep...\`;<br>
                       &#160 &#160 }<br>
                       &#160 &#160 return result;<br>
                       }
