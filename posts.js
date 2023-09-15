@@ -867,6 +867,29 @@ const posts = [
         `,
         date:  '15.09.2023, 17:11:10'
     },
+   { 
+        category: "JS",
+        title: "parseInt в JavaScript для преобразования строки в число.", 
+        prevContent: 'Использовать встроенную функцию parseInt в JavaScript для преобразования строки в число.', 
+        content: `Использовать встроенную функцию parseInt в JavaScript для преобразования строки в число. 
+                    Вот реализация функции stringToNumber:<br>
+                    <br><br>
+                    <b>
+                      const stringToNumber = function(str) {<br>
+                      &#160 &#160  return parseInt(str, 10);<br>
+                     };<br><br>
+                     
+                     // Примеры:<br>
+                     console.log(stringToNumber("1234")); // 1234<br>
+                     console.log(stringToNumber("605"));  // 605<br>
+                     console.log(stringToNumber("1405")); // 1405<br>
+                     console.log(stringToNumber("-7"));   // -7<br>
+                    </b><br>
+                     Функция parseInt принимает строку str и опционально основание (в данном случае, 10), 
+                     и возвращает числовое значение, представленное строкой.
+        `,
+        date:  '15.09.2023, 17:15:20'
+    },
 ];
 
  
