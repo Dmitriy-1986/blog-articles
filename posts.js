@@ -948,6 +948,42 @@ const posts = [
         `,
         date:  '18.09.2023, 10:56:28'
     },
+
+    { 
+        category: "JS",
+        title: "Проверка, что даты на соответствует с текущей датой без учета времени", 
+        prevContent: 'В этом коде мы создаем объект realDate, который представляет текущую дату без учета времени ', 
+        content: `В этом коде мы создаем объект realDate, который представляет текущую дату без учета времени 
+                    (время установлено в начало дня), и затем сравниваем currentDate с realDate. Теперь код должен правильно определить 
+                    "Сегодня", если даты совпадают без учета времени.
+                    <br><br>
+                    <b>
+                        const currentDateStr = '18.09.2023'; // Строка с датой в формате "день.месяц.год"<br>
+                        const currentDateParts = currentDateStr.split('.'); // Разбиваем строку на части<br><br>
+                        
+                        // Создаем объект Date с использованием частей даты<br>
+                        const currentDate = new Date(<br>
+                        &#160 &#160  parseInt(currentDateParts[2]),  // Год<br>
+                        &#160 &#160 parseInt(currentDateParts[1]) - 1,  // Месяц (нумерация месяцев начинается с 0)<br>
+                        &#160 &#160 parseInt(currentDateParts[0])  // День<br>
+                        );<br><br>
+                        
+                        // Создаем объект Date для текущей даты без учета времени<br>
+                        const realDate = new Date();<br>
+                        realDate.setHours(0, 0, 0, 0); // Устанавливаем время в начало дня<br><br>
+                        
+                        // Теперь можно сравнивать currentDate и realDate<br>
+                        if (currentDate < realDate) {<br>
+                        &#160 &#160 console.log('Вчера');<br>
+                        } else if (currentDate.toDateString() === realDate.toDateString()) {<br>
+                        &#160 &#160 console.log('Сегодня');<br>
+                        } else {<br>
+                        &#160 &#160 console.log('Завтра');<br>
+                        }<br>
+                    </b><br>
+        `,
+        date:  '18.09.2023, 11:52:11'
+    },
 ];
 
  
