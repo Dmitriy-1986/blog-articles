@@ -991,9 +991,9 @@ const posts = [
                     Если значение присутствует в (b), все его вхождения должны быть удалены из другого.
                     <br><br>
                     <b>
-                        function arrayDiff(a, b) {
-                          return a.filter( item => !b.includes(item) );
-                        }
+                        function arrayDiff(a, b) {<br>
+                          return a.filter( item => !b.includes(item) );<br>
+                        }<br>
                     </b><br>
                     Используя метод filter, чтобы пройти по элементам массива (a) и проверить, 
                     включен ли текущий элемент в массив (b) с помощью метода includes. Если элемент не включен в массив (b), он остается.
