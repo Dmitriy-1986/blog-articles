@@ -992,7 +992,7 @@ const posts = [
                     <br><br>
                     <b>
                         function arrayDiff(a, b) {<br>
-                          return a.filter( item => !b.includes(item) );<br>
+                        &#160 &#160 return a.filter( item => !b.includes(item) );<br>
                         }<br>
                     </b><br>
                     Используется метод filter, чтобы пройти по элементам массива (a) и проверить, 
